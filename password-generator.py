@@ -35,10 +35,6 @@ if answerCharsNb == "n":
         if answerCharsCapital == "n": 
             chars = "abcdefghijklmnopqrstuvwxyz"
  
-    
-
-
-chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890!@#$%^&*()?"
 
 password =  "".join(random.sample(chars,passlength ))
 print (password)
