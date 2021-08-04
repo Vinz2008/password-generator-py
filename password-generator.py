@@ -8,7 +8,7 @@ answerCharsSpecial = input("Do you want special characters in your password ? (y
 if answerCharsNb == "y":
     if answerCharsSpecial =="y":
 
-    if answerCharSpecial == "n" :    
+    if answerCharSpecial == "n":    
 chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890!@#$%^&*()?"
 if answerCharsNb == "n":
     
