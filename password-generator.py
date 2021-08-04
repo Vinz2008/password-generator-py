@@ -14,7 +14,7 @@ if answerCharsNb == "y":
         if answerCharsCapital == " y":
             chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890!@#$%^&*()?"
         if answerCharsCapital == "n":
-            chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
+            chars = "abcdefghijklmnopqrstuvwxyz01234567890!@#$%^&*()?"
 
     if answerCharSpecial == "n": 
         if answerCharsCapital == " y":
