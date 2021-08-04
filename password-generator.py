@@ -9,12 +9,20 @@ answerCharsCapital = input("Do you want Capital letters in your password ? (y/n)
 if answerCharsNb == "y":
     if answerCharsSpecial =="y":
         if answerCharsCapital == " y":
+        if answerCharsCapital == "n":
 
     if answerCharSpecial == "n":    
-chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890!@#$%^&*()?"
+
 if answerCharsNb == "n":
+    if answerCharsSpecial =="y":
+        if answerCharsCapital == " y":
+        if answerCharsCapital == "n":
+
+    if answerCharSpecial == "n":  
+        if answerCharsCapital == " y":
+        if answerCharsCapital == "n":  
     
-chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890!@#$%^&*()?"
+
 
 chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890!@#$%^&*()?"
 
