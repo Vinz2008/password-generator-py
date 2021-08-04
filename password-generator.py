@@ -27,13 +27,13 @@ if answerCharsNb == "n":
         if answerCharsCapital == " y":
             chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
         if answerCharsCapital == "n":
-            chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
+            chars = "abcdefghijklmnopqrstuvwxyz!@#$%^&*()?"
 
     if answerCharSpecial == "n":  
         if answerCharsCapital == " y":
-            chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
+            chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
         if answerCharsCapital == "n": 
-            chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
+            chars = "abcdefghijklmnopqrstuvwxyz"
  
     
 
