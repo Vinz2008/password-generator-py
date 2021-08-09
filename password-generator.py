@@ -16,21 +16,21 @@ if answerCharsNb == "y":
         if answerCharsCapital == "n":
             chars = "abcdefghijklmnopqrstuvwxyz01234567890!@#$%^&*()?"
 
-    if answerCharSpecial == "n": 
-        if answerCharsCapital == " y":
+    if answerCharsSpecial == "n": 
+        if answerCharsCapital == "y":
             chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890"
         if answerCharsCapital == "n": 
             chars = "abcdefghijklmnopqrstuvwxyz01234567890"  
 
 if answerCharsNb == "n":
     if answerCharsSpecial =="y":
-        if answerCharsCapital == " y":
+        if answerCharsCapital == "y":
             chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
         if answerCharsCapital == "n":
             chars = "abcdefghijklmnopqrstuvwxyz!@#$%^&*()?"
 
-    if answerCharSpecial == "n":  
-        if answerCharsCapital == " y":
+    if answerCharsSpecial == "n":  
+        if answerCharsCapital == "y":
             chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
         if answerCharsCapital == "n": 
             chars = "abcdefghijklmnopqrstuvwxyz"
